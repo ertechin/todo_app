@@ -30,6 +30,24 @@ gem "cssbundling-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# authentication solution for Rails based on Warden [https://github.com/heartcombo/devise]
+gem 'devise'
+
+# Very simple Roles library [https://github.com/RolifyCommunity/rolify]
+gem 'rolify'
+
+# restricts what resources a given user is allowed to access. [https://github.com/CanCanCommunity/cancancan]
+gem 'cancancan'
+
+# PgSearch builds named scopes that take advantage of PostgreSQL's full text search. [https://github.com/Casecommons/pg_search]
+gem 'pg_search'
+
+# Pagination [https://github.com/ddnexus/pagy]
+gem 'pagy'
+
+# generates reports including admin panels, analytics and data representation [https://github.com/bogdan/datagrid]
+gem 'datagrid'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
